@@ -1,0 +1,2 @@
+#推理命令 要在工程路径下
+python3.7 tools/infer_rec.py -c configs/rec/ch_ppocr_v2.0/rec_chinese_mv3_train_v2.0.yml -o Global.infer_img="/home/aistudio/data/data97405/B榜测试数据集/TestBImages" Global.pretrained_model="./output/rec_chinese_mv3_v2.0/best_accuracy"
